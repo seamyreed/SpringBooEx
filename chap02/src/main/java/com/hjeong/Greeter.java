@@ -1,4 +1,4 @@
-package chap02;
+package com.hjeong;
 
 /**
  * Created by hyojeongyoon on 2016. 8. 5..

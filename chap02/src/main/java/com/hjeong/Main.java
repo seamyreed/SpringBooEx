@@ -1,4 +1,4 @@
-package chap02;
+package com.hjeong;
 
 import org.springframework.context.support.GenericXmlApplicationContext;
 

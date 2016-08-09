@@ -7,7 +7,7 @@
     <!-- <bean> 태그가 객체를 생성하고 초기화 하는 내용.-->
     <!-- 스프링이 생성하는 객체를 빈객체라고 부른다.-->
 
-    <bean id="greeter" class="chap02.Greeter">
+    <bean id="greeter" class="com.hjeong.Greeter">
         <property name="format" value="%s, 안녕하세요!!"/>
     </bean>
 
