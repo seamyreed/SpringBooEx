@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- <bean> 태그가 객체를 생성하고 초기화 하는 내용.-->
+    <!-- 스프링이 생성하는 객체를 빈객체라고 부른다.-->
+
+    <bean id="greeter" class="chap02.Greeter">
+        <property name="format" value="%s, 안녕하세요!!"/>
+    </bean>
+
+</beans>
